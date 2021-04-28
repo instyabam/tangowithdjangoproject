@@ -55,7 +55,7 @@ ROOT_URLCONF = 'WAStest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # comma was on line below for some reason
+        'DIRS': [BASE_DIR / 'newz/index.py'],  # comma was on line below for some reason
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
